@@ -24,7 +24,8 @@ namespace MatBlazor
 
         [Parameter]
         public int Length { get; set; }
-
+        
+        [Parameter]
         protected int CurrentPageIndex { get; set; }
 
         protected int TotalPages { get; set; }
